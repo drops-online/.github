@@ -1,0 +1,10 @@
+name: Magento Issue
+description: Report a Magento-related issue.
+title: "[Magento] Issue"
+labels: ["Magento"]
+projects: ["drops-online/2"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please describe the issue...
