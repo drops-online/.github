@@ -1,0 +1,14 @@
+name: Flutter Issue
+description: Report a Flutter-related issue.
+title: "[Flutter] "
+labels: ["Flutter"]
+projects: ["drops-online/2"]
+body:
+  - type: markdown
+    attributes:
+      value: "Please provide details for your Flutter issue below."
+  - type: textarea
+    id: issue-description
+    attributes:
+      label: "Issue Description"
+      description: "Describe the problem you are experiencing."
