@@ -1,10 +1,14 @@
 name: Magento Issue
 description: Report a Magento-related issue.
-title: "[Magento] Issue"
+title: "[Magento] "
 labels: ["Magento"]
 projects: ["drops-online/2"]
 body:
   - type: markdown
     attributes:
-      value: |
-        Please describe the issue...
+      value: "Please provide details for your Magento issue below."
+  - type: textarea
+    id: issue-description
+    attributes:
+      label: "Issue Description"
+      description: "Describe the problem you are experiencing."
