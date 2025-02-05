@@ -1,0 +1,14 @@
+name: NextJS Issue
+description: Report a NextJS-related issue.
+title: "[NextJS] "
+labels: ["NextJS"]
+projects: ["drops-online/2"]
+body:
+  - type: markdown
+    attributes:
+      value: "Please provide details for your NextJS issue below."
+  - type: textarea
+    id: issue-description
+    attributes:
+      label: "Issue Description"
+      description: "Describe the problem you are experiencing."
