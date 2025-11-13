@@ -1,0 +1,12 @@
+name: Odoo Issue
+description: Report a Odoo-related issue.
+projects: ["drops-online/2"]
+body:
+  - type: markdown
+    attributes:
+      value: "Please provide details for your issue below."
+  - type: textarea
+    id: issue-description
+    attributes:
+      label: "Issue Description"
+      description: "Describe the problem you are experiencing."
