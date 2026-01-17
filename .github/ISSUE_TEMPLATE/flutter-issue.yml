@@ -1,7 +1,6 @@
 name: Flutter Issue
 description: Report a Flutter-related issue.
 title: "[Flutter] "
-labels: ["Flutter"]
 projects: ["drops-online/2"]
 body:
   - type: markdown
